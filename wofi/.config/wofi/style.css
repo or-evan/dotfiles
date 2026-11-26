@@ -1,0 +1,76 @@
+/* Catppuccin Mocha - Wofi */
+* {
+  font-size: 15px;
+}
+window {
+  background-color: alpha(#1e1e2e, 0.8);
+}
+
+#scroll {
+  background-color: transparent;
+}
+#outer-box {
+  background-color: transparent;
+  padding: 5px;
+  border: 2px solid #b4befe;
+  margin: 0px
+}
+#main {
+  background-color: transparent;
+}
+scrollbar,
+scrollbar trough,
+undershoot.top,
+undershoot.bottom {
+  min-width: 5px;
+  min-height: 5px;
+  background: none;
+}
+scrollbar slider{
+  background-color: #b4befe;
+}
+#outer-box {
+  padding: 10px;
+}
+
+#input image {
+  color: #b4befe; /*Accent*/ 
+  -gtk-icon-effect: none;
+}
+#input {
+  background-color: #313244; /* Surface0 */
+  color: #cdd6f4;        /* typed text */
+  caret-color: #b4befe;
+  border: 1px solid #45475a; /* Surface1 */
+  padding: 0px 5px;
+  margin: 2px;
+  outline: 1px solid #585b70;
+  border-radius: 0;
+}
+#input:focus {
+  border-color: #b4befe; /* Accent */
+}
+#input placeholder {
+  color: #1e1e2e; /* Overlay0 */
+}
+#entry {
+  background-color: transparent;
+  color: #cdd6f4;
+}
+#entry #entry:selected {
+  background-color: alpha(#313244,0.8);
+  color: #b4befe;
+}
+#entry:selected {
+  background-color: alpha(#313244,0.8);
+  color: #b4befe;
+}
+#entry:hover {
+  background-color: #45475a; /* Surface1 */
+}
+#text {
+  color: #cdd6f4 ; /* Text */
+}
+#text:selected {
+  color: #b4befe; /* Accent */
+}
